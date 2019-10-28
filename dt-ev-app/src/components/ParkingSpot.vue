@@ -11,12 +11,15 @@
     }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
+    @import '../assets/css/index.scss';
+
     .parking-spot {
-        border: 1px solid #0067b8;
+        border: 3px solid #0067b8;
         height: 125px;
         width: 60vw;
         min-width: 200px;
+        max-width: 300px;
         background-image: url("../assets/car.png");
         background-repeat: no-repeat;
         background-position: center;
